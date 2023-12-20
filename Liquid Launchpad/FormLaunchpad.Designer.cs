@@ -21,7 +21,6 @@
             this.LabelStatus = new System.Windows.Forms.Label();
             this.TimerGameRunning = new System.Windows.Forms.Timer(this.components);
             this.TimerAutoInject = new System.Windows.Forms.Timer(this.components);
-            this.ButtonKey = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // ButtonInject
@@ -33,7 +32,7 @@
             this.ButtonInject.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonInject.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButtonInject.ForeColor = System.Drawing.Color.White;
-            this.ButtonInject.Location = new System.Drawing.Point(12, 76);
+            this.ButtonInject.Location = new System.Drawing.Point(12, 12);
             this.ButtonInject.Name = "ButtonInject";
             this.ButtonInject.Size = new System.Drawing.Size(302, 45);
             this.ButtonInject.TabIndex = 0;
@@ -47,7 +46,7 @@
             this.LabelStatus.AutoSize = true;
             this.LabelStatus.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LabelStatus.ForeColor = System.Drawing.Color.White;
-            this.LabelStatus.Location = new System.Drawing.Point(12, 136);
+            this.LabelStatus.Location = new System.Drawing.Point(12, 66);
             this.LabelStatus.Name = "LabelStatus";
             this.LabelStatus.Size = new System.Drawing.Size(138, 15);
             this.LabelStatus.TabIndex = 2;
@@ -58,30 +57,12 @@
             // 
             this.TimerGameRunning.Tick += new System.EventHandler(this.OnTickGameRunning);
             // 
-            // ButtonKey
-            // 
-            this.ButtonKey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
-            this.ButtonKey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.ButtonKey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(58)))), ((int)(((byte)(58)))));
-            this.ButtonKey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ButtonKey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ButtonKey.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ButtonKey.ForeColor = System.Drawing.Color.White;
-            this.ButtonKey.Location = new System.Drawing.Point(12, 26);
-            this.ButtonKey.Name = "ButtonKey";
-            this.ButtonKey.Size = new System.Drawing.Size(302, 34);
-            this.ButtonKey.TabIndex = 0;
-            this.ButtonKey.Text = "Get Key";
-            this.ButtonKey.UseVisualStyleBackColor = false;
-            this.ButtonKey.Click += new System.EventHandler(this.OnClickGetKey);
-            // 
             // FormLaunchpad
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.ClientSize = new System.Drawing.Size(326, 161);
+            this.ClientSize = new System.Drawing.Size(326, 91);
             this.Controls.Add(this.LabelStatus);
-            this.Controls.Add(this.ButtonKey);
             this.Controls.Add(this.ButtonInject);
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -110,8 +91,5 @@
 
 		// Token: 0x0400000E RID: 14
 		private global::System.Windows.Forms.Timer TimerAutoInject;
-
-		// Token: 0x04000012 RID: 18
-		private global::System.Windows.Forms.Button ButtonKey;
 	}
 }

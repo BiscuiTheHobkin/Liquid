@@ -67,7 +67,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="FormKeyInput.resources" />
+    <EmbeddedResource Include="FormKeyInput.resx">
+      <DependentUpon>FormKeyInput.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormLaunchpad.resx">
       <DependentUpon>FormLaunchpad.cs</DependentUpon>
     </EmbeddedResource>

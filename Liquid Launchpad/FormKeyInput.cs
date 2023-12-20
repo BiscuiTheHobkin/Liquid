@@ -59,5 +59,10 @@ namespace LiquidLaunchpad
 
 		// Token: 0x04000001 RID: 1
 		private string ValidKey;
-	}
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

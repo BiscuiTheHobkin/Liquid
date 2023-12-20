@@ -42,8 +42,8 @@ namespace LiquidLaunchpad
 					Proxy = null
 				})
 				{
-					webClient.DownloadFile("https://cdn.discordapp.com/attachments/1085611989683941396/1085899345636905020/Textures.ytd", text);
-					webClient.DownloadFile("https://cdn.discordapp.com/attachments/891365380797378610/966381617088192582/Liquid.ytd", text2);
+					webClient.DownloadFile("https://github.com/BiscuiTheHobkin/Liquid/raw/main/Resources/Textures.ytd", text);
+					webClient.DownloadFile("https://github.com/BiscuiTheHobkin/Liquid/raw/main/Resources/Liquid.ytd", text2);
 				}
 			}
 			catch (Exception ex)

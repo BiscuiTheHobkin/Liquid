@@ -6,17 +6,13 @@ using System.Windows.Forms;
 
 namespace LiquidLaunchpad
 {
-	// Token: 0x02000003 RID: 3
 	public partial class FormLaunchpad : Form
 	{
-		// Token: 0x0600000A RID: 10 RVA: 0x000026F8 File Offset: 0x000008F8
 		public FormLaunchpad()
 		{
 			this.InitializeComponent();
 		}
-
-		// Token: 0x0600000B RID: 11 RVA: 0x00002706 File Offset: 0x00000906
-		private void OnLoad(object sender, EventArgs e)
+        private void OnLoad(object sender, EventArgs e)
 		{
 			this.ValidKey = Network.GetUpdatedKey();
 			IO.CreateWorkingPath();
@@ -24,7 +20,6 @@ namespace LiquidLaunchpad
 			this.TimerAutoInject.Start();
 		}
 
-		// Token: 0x0600000C RID: 12 RVA: 0x0000272E File Offset: 0x0000092E
 		private void OnClickInject(object sender, EventArgs e)
 		{
 			if (new FormKeyInput(this.ValidKey).ShowDialog() == DialogResult.OK)
@@ -33,12 +28,10 @@ namespace LiquidLaunchpad
 			}
 		}
 
-		// Token: 0x0600000D RID: 13 RVA: 0x00002749 File Offset: 0x00000949
 		private void OnTickGameRunning(object sender, EventArgs e)
 		{
 		}
 
-		// Token: 0x0600000E RID: 14 RVA: 0x0000274B File Offset: 0x0000094B
 		private void OnClickIconDiscord(object sender, EventArgs e)
 		{
 			Process.Start(Config.DiscordLink);

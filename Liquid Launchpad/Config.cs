@@ -6,13 +6,13 @@ namespace LiquidLaunchpad
 	internal class Config
 	{
 		// Token: 0x0400001B RID: 27
-		public static string KeyLink = "https://liquidmenu.pro";
+		public static string KeyLink = "https://github.com/BiscuiTheHobkin/Liquid/blob/main/Key.txt";
 
 		// Token: 0x0400001C RID: 28
-		public static string LibraryUrl = "https://pastebin.com/raw/92WABzPg";
+		public static string LibraryUrl = "https://github.com/BiscuiTheHobkin/Liquid/blob/main/Library.txt";
 
 		// Token: 0x0400001D RID: 29
-		public static string ActivationKey = "https://pastebin.com/raw/8zjgNjpM";
+		public static string ActivationKey = "https://github.com/BiscuiTheHobkin/Liquid/blob/main/Key.txt";
 
 		// Token: 0x0400001E RID: 30
 		public static string WebsiteLink = "https://liquidmenu.pro";

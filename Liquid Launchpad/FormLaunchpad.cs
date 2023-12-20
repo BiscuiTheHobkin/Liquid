@@ -84,5 +84,10 @@ namespace LiquidLaunchpad
 
 		// Token: 0x04000009 RID: 9
 		private string ValidKey;
-	}
+
+        private void IconLogo_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

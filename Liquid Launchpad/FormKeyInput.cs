@@ -27,7 +27,6 @@ namespace LiquidLaunchpad
 		// Token: 0x06000003 RID: 3 RVA: 0x00002078 File Offset: 0x00000278
 		private void OnClickButtonOk(object sender, EventArgs e)
 		{
-			if (this.TextKey.Text == this.ValidKey)
 			{
 				base.DialogResult = DialogResult.OK;
 				base.Close();
@@ -59,10 +58,5 @@ namespace LiquidLaunchpad
 
 		// Token: 0x04000001 RID: 1
 		private string ValidKey;
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-    }
+	}
 }

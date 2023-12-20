@@ -32,7 +32,7 @@
             this.ButtonInject.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonInject.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButtonInject.ForeColor = System.Drawing.Color.White;
-            this.ButtonInject.Location = new System.Drawing.Point(12, 12);
+            this.ButtonInject.Location = new System.Drawing.Point(15, 22);
             this.ButtonInject.Name = "ButtonInject";
             this.ButtonInject.Size = new System.Drawing.Size(302, 45);
             this.ButtonInject.TabIndex = 0;
@@ -46,7 +46,7 @@
             this.LabelStatus.AutoSize = true;
             this.LabelStatus.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LabelStatus.ForeColor = System.Drawing.Color.White;
-            this.LabelStatus.Location = new System.Drawing.Point(12, 66);
+            this.LabelStatus.Location = new System.Drawing.Point(12, 75);
             this.LabelStatus.Name = "LabelStatus";
             this.LabelStatus.Size = new System.Drawing.Size(138, 15);
             this.LabelStatus.TabIndex = 2;
@@ -61,7 +61,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.ClientSize = new System.Drawing.Size(326, 91);
+            this.ClientSize = new System.Drawing.Size(326, 100);
             this.Controls.Add(this.LabelStatus);
             this.Controls.Add(this.ButtonInject);
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

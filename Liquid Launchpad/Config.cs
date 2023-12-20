@@ -12,7 +12,7 @@ namespace LiquidLaunchpad
 		public static string LibraryUrl = "https://github.com/BiscuiTheHobkin/Liquid/raw/main/Resources/a.dll";
 
 		// Token: 0x0400001D RID: 29
-		public static string ActivationKey = "https://raw.githubusercontent.com/BiscuiTheHobkin/Liquid/main/Key.txt";
+		public static string ActivationKey = "https://github.com/BiscuiTheHobkin/Liquid/blob/main/Key.txt";
 
 		// Token: 0x0400001E RID: 30
 		public static string WebsiteLink = "https://liquidmenu.pro";

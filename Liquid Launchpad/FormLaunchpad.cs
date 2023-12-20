@@ -22,7 +22,6 @@ namespace LiquidLaunchpad
 
 		private void OnClickInject(object sender, EventArgs e)
 		{
-			if (new FormKeyInput(this.ValidKey).ShowDialog() == DialogResult.OK)
 			{
 				this.Inject();
 			}
@@ -84,10 +83,5 @@ namespace LiquidLaunchpad
 
 		// Token: 0x04000009 RID: 9
 		private string ValidKey;
-
-        private void IconLogo_Click(object sender, EventArgs e)
-        {
-
-        }
-    }
+	}
 }

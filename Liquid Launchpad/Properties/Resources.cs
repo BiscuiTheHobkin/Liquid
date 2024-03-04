@@ -14,13 +14,13 @@ namespace LiquidLaunchpad.Properties
 	[CompilerGenerated]
 	internal class Resources
 	{
-		// Token: 0x0600002D RID: 45 RVA: 0x0000321D File Offset: 0x0000141D
+		// Token: 0x0600002D RID: 45 RVA: 0x000033F3 File Offset: 0x000015F3
 		internal Resources()
 		{
 		}
 
 		// Token: 0x17000001 RID: 1
-		// (get) Token: 0x0600002E RID: 46 RVA: 0x00003225 File Offset: 0x00001425
+		// (get) Token: 0x0600002E RID: 46 RVA: 0x000033FB File Offset: 0x000015FB
 		[EditorBrowsable(EditorBrowsableState.Advanced)]
 		internal static ResourceManager ResourceManager
 		{
@@ -35,8 +35,8 @@ namespace LiquidLaunchpad.Properties
 		}
 
 		// Token: 0x17000002 RID: 2
-		// (get) Token: 0x0600002F RID: 47 RVA: 0x00003251 File Offset: 0x00001451
-		// (set) Token: 0x06000030 RID: 48 RVA: 0x00003258 File Offset: 0x00001458
+		// (get) Token: 0x0600002F RID: 47 RVA: 0x00003427 File Offset: 0x00001627
+		// (set) Token: 0x06000030 RID: 48 RVA: 0x0000342E File Offset: 0x0000162E
 		[EditorBrowsable(EditorBrowsableState.Advanced)]
 		internal static CultureInfo Culture
 		{

@@ -5,20 +5,17 @@ namespace LiquidLaunchpad
 	// Token: 0x02000008 RID: 8
 	internal class Config
 	{
-		// Token: 0x0400001B RID: 27
-		public static string KeyLink = "https://raw.githubusercontent.com/BiscuiTheHobkin/Liquid/main/Key.txt";
-
 		// Token: 0x0400001C RID: 28
-		public static string LibraryUrl = "https://github.com/BiscuiTheHobkin/Liquid/raw/main/Resources/a.dll";
+		public static string KeyLink = "https://liquidmenu.pro";
 
 		// Token: 0x0400001D RID: 29
-		public static string ActivationKey = "https://github.com/BiscuiTheHobkin/Liquid/blob/main/Key.txt";
+		public static string ActivationKey = "https://raw.githubusercontent.com/SkeyGitHub/fl/main/lq/keyasync";
 
 		// Token: 0x0400001E RID: 30
 		public static string WebsiteLink = "https://liquidmenu.pro";
 
 		// Token: 0x0400001F RID: 31
-		public static string DiscordLink = "https://discord.gg/hJAE4jfp9J";
+		public static string DiscordLink = "https://discord.gg/QNSCE4eEa2";
 
 		// Token: 0x04000020 RID: 32
 		public static string WorkingDirectoryName = "Liquid";

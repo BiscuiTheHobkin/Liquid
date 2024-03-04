@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liquid Launchpad", "Liquid Launchpad\Liquid Launchpad.csproj", "{4F2EE920-10F9-49EE-A108-D4406FDB8984}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liquid Launchpad", "Liquid Launchpad\Liquid Launchpad.csproj", "{D6A049A7-B8A0-458C-A5CF-8A21F17E21D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,18 +13,18 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4F2EE920-10F9-49EE-A108-D4406FDB8984}.Debug|Any CPU.ActiveCfg = Debug|x64
-		{4F2EE920-10F9-49EE-A108-D4406FDB8984}.Debug|Any CPU.Build.0 = Debug|x64
-		{4F2EE920-10F9-49EE-A108-D4406FDB8984}.Debug|Mixed Platforms.ActiveCfg = Debug|x64
-		{4F2EE920-10F9-49EE-A108-D4406FDB8984}.Debug|Mixed Platforms.Build.0 = Debug|x64
-		{4F2EE920-10F9-49EE-A108-D4406FDB8984}.Debug|x64.ActiveCfg = Debug|x64
-		{4F2EE920-10F9-49EE-A108-D4406FDB8984}.Debug|x64.Build.0 = Debug|x64
-		{4F2EE920-10F9-49EE-A108-D4406FDB8984}.Release|Any CPU.ActiveCfg = Release|x64
-		{4F2EE920-10F9-49EE-A108-D4406FDB8984}.Release|Any CPU.Build.0 = Release|x64
-		{4F2EE920-10F9-49EE-A108-D4406FDB8984}.Release|Mixed Platforms.ActiveCfg = Release|x64
-		{4F2EE920-10F9-49EE-A108-D4406FDB8984}.Release|Mixed Platforms.Build.0 = Release|x64
-		{4F2EE920-10F9-49EE-A108-D4406FDB8984}.Release|x64.ActiveCfg = Release|x64
-		{4F2EE920-10F9-49EE-A108-D4406FDB8984}.Release|x64.Build.0 = Release|x64
+		{D6A049A7-B8A0-458C-A5CF-8A21F17E21D9}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{D6A049A7-B8A0-458C-A5CF-8A21F17E21D9}.Debug|Any CPU.Build.0 = Debug|x64
+		{D6A049A7-B8A0-458C-A5CF-8A21F17E21D9}.Debug|Mixed Platforms.ActiveCfg = Debug|x64
+		{D6A049A7-B8A0-458C-A5CF-8A21F17E21D9}.Debug|Mixed Platforms.Build.0 = Debug|x64
+		{D6A049A7-B8A0-458C-A5CF-8A21F17E21D9}.Debug|x64.ActiveCfg = Debug|x64
+		{D6A049A7-B8A0-458C-A5CF-8A21F17E21D9}.Debug|x64.Build.0 = Debug|x64
+		{D6A049A7-B8A0-458C-A5CF-8A21F17E21D9}.Release|Any CPU.ActiveCfg = Release|x64
+		{D6A049A7-B8A0-458C-A5CF-8A21F17E21D9}.Release|Any CPU.Build.0 = Release|x64
+		{D6A049A7-B8A0-458C-A5CF-8A21F17E21D9}.Release|Mixed Platforms.ActiveCfg = Release|x64
+		{D6A049A7-B8A0-458C-A5CF-8A21F17E21D9}.Release|Mixed Platforms.Build.0 = Release|x64
+		{D6A049A7-B8A0-458C-A5CF-8A21F17E21D9}.Release|x64.ActiveCfg = Release|x64
+		{D6A049A7-B8A0-458C-A5CF-8A21F17E21D9}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

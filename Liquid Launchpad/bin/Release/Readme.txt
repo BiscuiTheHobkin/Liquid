@@ -1,1 +1,0 @@
-Put the liquid folder in your c: drive

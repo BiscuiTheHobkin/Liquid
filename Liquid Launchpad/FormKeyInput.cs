@@ -27,6 +27,7 @@ namespace LiquidLaunchpad
 		// Token: 0x06000003 RID: 3 RVA: 0x00002078 File Offset: 0x00000278
 		private void OnClickButtonOk(object sender, EventArgs e)
 		{
+			if (this.TextKey.Text.Trim() == this.ValidKey.Trim())
 			{
 				base.DialogResult = DialogResult.OK;
 				base.Close();
@@ -35,23 +36,23 @@ namespace LiquidLaunchpad
 			MessageBox.Show("Please enter a valid activation key.");
 		}
 
-		// Token: 0x06000004 RID: 4 RVA: 0x000020AB File Offset: 0x000002AB
+		// Token: 0x06000004 RID: 4 RVA: 0x000020B5 File Offset: 0x000002B5
 		private void OnClickLinkKey(object sender, LinkLabelLinkClickedEventArgs e)
 		{
 			Process.Start(Config.KeyLink);
 		}
 
-		// Token: 0x06000005 RID: 5 RVA: 0x000020B8 File Offset: 0x000002B8
+		// Token: 0x06000005 RID: 5 RVA: 0x000020C2 File Offset: 0x000002C2
 		private void OnTextChangedTextKey(object sender, EventArgs e)
 		{
 		}
 
-		// Token: 0x06000006 RID: 6 RVA: 0x000020BA File Offset: 0x000002BA
+		// Token: 0x06000006 RID: 6 RVA: 0x000020C4 File Offset: 0x000002C4
 		private void FormKeyInput_Load(object sender, EventArgs e)
 		{
 		}
 
-		// Token: 0x06000007 RID: 7 RVA: 0x000020BC File Offset: 0x000002BC
+		// Token: 0x06000007 RID: 7 RVA: 0x000020C6 File Offset: 0x000002C6
 		private void label2_Click(object sender, EventArgs e)
 		{
 		}

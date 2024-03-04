@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x64</Platform>
-    <ProjectGuid>{4F2EE920-10F9-49EE-A108-D4406FDB8984}</ProjectGuid>
+    <ProjectGuid>{D6A049A7-B8A0-458C-A5CF-8A21F17E21D9}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>LiquidLaunchpad</RootNamespace>
@@ -67,12 +67,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="FormKeyInput.resx">
-      <DependentUpon>FormKeyInput.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormLaunchpad.resx">
-      <DependentUpon>FormLaunchpad.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resources" />
   </ItemGroup>
   <ItemGroup>

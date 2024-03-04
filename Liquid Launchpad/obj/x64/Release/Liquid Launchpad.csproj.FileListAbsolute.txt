@@ -1,9 +1,6 @@
-C:\Users\Biscuit\Documents\Visual Studio 2022\Liquid\Liquid Launchpad\bin\Release\Liquid Launchpad.exe
-C:\Users\Biscuit\Documents\Visual Studio 2022\Liquid\Liquid Launchpad\bin\Release\Liquid Launchpad.pdb
-C:\Users\Biscuit\Documents\Visual Studio 2022\Liquid\Liquid Launchpad\obj\x64\Release\Liquid Launchpad.csproj.AssemblyReference.cache
-C:\Users\Biscuit\Documents\Visual Studio 2022\Liquid\Liquid Launchpad\obj\x64\Release\LiquidLaunchpad.FormKeyInput.resources
-C:\Users\Biscuit\Documents\Visual Studio 2022\Liquid\Liquid Launchpad\obj\x64\Release\LiquidLaunchpad.FormLaunchpad.resources
-C:\Users\Biscuit\Documents\Visual Studio 2022\Liquid\Liquid Launchpad\obj\x64\Release\Liquid Launchpad.csproj.GenerateResource.cache
-C:\Users\Biscuit\Documents\Visual Studio 2022\Liquid\Liquid Launchpad\obj\x64\Release\Liquid Launchpad.csproj.CoreCompileInputs.cache
-C:\Users\Biscuit\Documents\Visual Studio 2022\Liquid\Liquid Launchpad\obj\x64\Release\Liquid Launchpad.exe
-C:\Users\Biscuit\Documents\Visual Studio 2022\Liquid\Liquid Launchpad\obj\x64\Release\Liquid Launchpad.pdb
+C:\Users\Biscuit\Documents\Visual Studio 2022\Liquid V5 Launcher\Liquid Launchpad\bin\Release\Liquid Launchpad.exe
+C:\Users\Biscuit\Documents\Visual Studio 2022\Liquid V5 Launcher\Liquid Launchpad\bin\Release\Liquid Launchpad.pdb
+C:\Users\Biscuit\Documents\Visual Studio 2022\Liquid V5 Launcher\Liquid Launchpad\obj\x64\Release\Liquid Launchpad.csproj.AssemblyReference.cache
+C:\Users\Biscuit\Documents\Visual Studio 2022\Liquid V5 Launcher\Liquid Launchpad\obj\x64\Release\Liquid Launchpad.csproj.CoreCompileInputs.cache
+C:\Users\Biscuit\Documents\Visual Studio 2022\Liquid V5 Launcher\Liquid Launchpad\obj\x64\Release\Liquid Launchpad.exe
+C:\Users\Biscuit\Documents\Visual Studio 2022\Liquid V5 Launcher\Liquid Launchpad\obj\x64\Release\Liquid Launchpad.pdb

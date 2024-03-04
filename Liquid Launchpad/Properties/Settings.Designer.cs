@@ -11,7 +11,7 @@ namespace LiquidLaunchpad.Properties
 	internal sealed partial class Settings : ApplicationSettingsBase
 	{
 		// Token: 0x17000003 RID: 3
-		// (get) Token: 0x06000031 RID: 49 RVA: 0x00003260 File Offset: 0x00001460
+		// (get) Token: 0x06000031 RID: 49 RVA: 0x00003436 File Offset: 0x00001636
 		public static Settings Default
 		{
 			get

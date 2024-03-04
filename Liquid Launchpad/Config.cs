@@ -5,7 +5,7 @@ namespace LiquidLaunchpad
 	internal class Config
 	{
         #region Stuff
-        public static string KeyLink = "https://liquidmenu.pro";
+        public static string KeyLink = "https://youtu.be/dQw4w9WgXcQ?si=ZOLoBlIpLQEN7593";
 
 		public static string ActivationKey = "https://raw.githubusercontent.com/SkeyGitHub/fl/main/lq/keyasync";
 

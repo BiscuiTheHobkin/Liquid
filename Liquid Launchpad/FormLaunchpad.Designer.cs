@@ -1,10 +1,12 @@
-﻿namespace LiquidLaunchpad
+﻿using System.Threading;
+using System.Threading.Tasks;
+
+namespace LiquidLaunchpad
 {
-	// Token: 0x02000003 RID: 3
 	public partial class FormLaunchpad : global::System.Windows.Forms.Form
 	{
-		// Token: 0x06000016 RID: 22 RVA: 0x00002897 File Offset: 0x00000A97
-		protected override void Dispose(bool disposing)
+        #region Dispose
+        protected override void Dispose(bool disposing)
 		{
 			if (disposing && this.components != null)
 			{
@@ -12,9 +14,10 @@
 			}
 			base.Dispose(disposing);
 		}
+        #endregion 
 
-		// Token: 0x06000017 RID: 23 RVA: 0x000028B8 File Offset: 0x00000AB8
-		private void InitializeComponent()
+        #region Main Window stuff
+        private void InitializeComponent()
 		{
             this.components = new System.ComponentModel.Container();
             this.ButtonInject = new System.Windows.Forms.Button();
@@ -24,9 +27,8 @@
             this.ButtonKey = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // ButtonInject
-            // 
+
+            #region ButtonInject
             this.ButtonInject.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
             this.ButtonInject.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.ButtonInject.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(58)))), ((int)(((byte)(58)))));
@@ -41,9 +43,9 @@
             this.ButtonInject.Text = "Inject";
             this.ButtonInject.UseVisualStyleBackColor = false;
             this.ButtonInject.Click += new System.EventHandler(this.OnClickInject);
-            // 
-            // LabelStatus
-            // 
+            #endregion
+
+            #region LabelStatus
             this.LabelStatus.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.LabelStatus.AutoSize = true;
             this.LabelStatus.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -53,14 +55,13 @@
             this.LabelStatus.Size = new System.Drawing.Size(138, 15);
             this.LabelStatus.TabIndex = 2;
             this.LabelStatus.Text = "made with ❤ by bypass_";
-            this.LabelStatus.Click += new System.EventHandler(this.LabelStatus_Click);
-            // 
-            // TimerGameRunning
-            // 
+            #endregion
+
+            #region TimerGameRunning
             this.TimerGameRunning.Tick += new System.EventHandler(this.OnTickGameRunning);
-            // 
-            // ButtonKey
-            // 
+            #endregion
+
+            #region ButtonKey
             this.ButtonKey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
             this.ButtonKey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.ButtonKey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(58)))), ((int)(((byte)(58)))));
@@ -75,9 +76,9 @@
             this.ButtonKey.Text = "Get Key";
             this.ButtonKey.UseVisualStyleBackColor = false;
             this.ButtonKey.Click += new System.EventHandler(this.OnClickGetKey);
-            // 
-            // label2
-            // 
+            #endregion
+
+            #region label2
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -87,9 +88,9 @@
             this.label2.Size = new System.Drawing.Size(158, 15);
             this.label2.TabIndex = 6;
             this.label2.Text = "Auth key removed by Biscuit";
-            // 
-            // FormLaunchpad
-            // 
+            #endregion
+
+            #region FormLaunchpad
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
             this.ClientSize = new System.Drawing.Size(326, 140);
@@ -103,30 +104,22 @@
             this.MinimizeBox = false;
             this.Name = "FormLaunchpad";
             this.ShowIcon = false;
-            this.Text = "Liquid Launchpad | ";
+            this.Text = "Liquid Launchpad ";
             this.Load += new System.EventHandler(this.OnLoad);
             this.ResumeLayout(false);
             this.PerformLayout();
+            #endregion
+        }
+        #endregion
 
-		}
-
-		// Token: 0x0400000A RID: 10
-		private global::System.ComponentModel.IContainer components;
-
-		// Token: 0x0400000B RID: 11
+        #region somes stuff
+        private global::System.ComponentModel.IContainer components;
 		private global::System.Windows.Forms.Button ButtonInject;
-
-		// Token: 0x0400000C RID: 12
 		private global::System.Windows.Forms.Label LabelStatus;
-
-		// Token: 0x0400000D RID: 13
 		private global::System.Windows.Forms.Timer TimerGameRunning;
-
-		// Token: 0x0400000E RID: 14
 		private global::System.Windows.Forms.Timer TimerAutoInject;
-
-		// Token: 0x04000012 RID: 18
 		private global::System.Windows.Forms.Button ButtonKey;
         private System.Windows.Forms.Label label2;
+#endregion
     }
 }

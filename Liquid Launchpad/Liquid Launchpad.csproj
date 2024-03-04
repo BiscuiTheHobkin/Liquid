@@ -42,12 +42,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Config.cs" />
-    <Compile Include="FormKeyInput.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormKeyInput.Designer.cs">
-      <DependentUpon>FormKeyInput.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormLaunchpad.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,6 +61,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FormLaunchpad.resx">
+      <DependentUpon>FormLaunchpad.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resources" />
   </ItemGroup>
   <ItemGroup>

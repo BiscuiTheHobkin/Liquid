@@ -50,7 +50,8 @@ namespace LiquidLaunchpad
 			{
 				string address = "https://github.com/BiscuiTheHobkin/Liquid/raw/main/Resources/Liquid.dll";
 				webClient.DownloadFile(address, IO.GetLibraryPath());
-			}
+                string formattedDateTime = DateTime.Now.ToString("[HH:mm:ss:ml] -> ");
+            }
 			return true;
 		}
         #endregion

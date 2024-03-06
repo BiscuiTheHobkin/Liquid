@@ -28,12 +28,25 @@ namespace LiquidLaunchpad
         #endregion
 
         #region OnClickInject
+        static bool IsGTA5Running()
+        {
+            Process[] processes = Process.GetProcessesByName("GTA5");
+            return processes.Length > 0;
+        }
         private void OnClickInject(object sender, EventArgs e)
 		{
 			{
-				this.Inject();
-
-			}
+                if (IsGTA5Running())
+                {
+                    Inject();
+                }
+                else
+                {
+                    SoundPlayer ErrorSound = new SoundPlayer("C:/Windows/Media/Windows Foreground.wav");
+                    ErrorSound.Play();
+                    
+                }
+            }
 		}
         #endregion
 
@@ -68,5 +81,9 @@ namespace LiquidLaunchpad
 			Memory.Inject(IO.GetLibraryPath());
 		}
         #endregion
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+        }
     }
 }

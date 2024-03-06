@@ -3,7 +3,6 @@
 	// Token: 0x02000003 RID: 3
 	public partial class FormLaunchpad
 	{
-		// Token: 0x0600001A RID: 26 RVA: 0x000027A2 File Offset: 0x000009A2
 		protected override void Dispose(bool disposing)
 		{
 			if (disposing && this.components != null)
@@ -13,7 +12,6 @@
 			base.Dispose(disposing);
 		}
 
-		// Token: 0x0600001B RID: 27 RVA: 0x000027C4 File Offset: 0x000009C4
 		private void InitializeComponent()
 		{
             this.components = new System.ComponentModel.Container();
@@ -132,31 +130,22 @@
 
 		}
 
-		// Token: 0x04000008 RID: 8
 		private global::System.ComponentModel.IContainer components;
 
-		// Token: 0x04000009 RID: 9
 		private global::System.Windows.Forms.Button ButtonInject;
 
-		// Token: 0x0400000A RID: 10
 		private global::System.Windows.Forms.Label LabelStatus;
 
-		// Token: 0x0400000B RID: 11
 		private global::System.Windows.Forms.Timer TimerGameRunning;
 
-		// Token: 0x0400000C RID: 12
 		private global::System.Windows.Forms.Timer TimerAutoInject;
 
-		// Token: 0x04000010 RID: 16
 		private global::System.Windows.Forms.Button ButtonKey;
 
-		// Token: 0x04000012 RID: 18
 		private global::System.Windows.Forms.Label label2;
 
-		// Token: 0x04000013 RID: 19
 		private global::System.Windows.Forms.TextBox textBox1;
 
-		// Token: 0x04000014 RID: 20
 		private global::System.Windows.Forms.RichTextBox richTextBox1;
 	}
 }

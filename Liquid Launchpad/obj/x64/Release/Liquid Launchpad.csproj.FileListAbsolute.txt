@@ -1,0 +1,9 @@
+C:\Users\Biscuit\Documents\GitHub\Liquid\Liquid Launchpad\bin\Release\Liquid Launchpad.exe
+C:\Users\Biscuit\Documents\GitHub\Liquid\Liquid Launchpad\bin\Release\Liquid Launchpad.pdb
+C:\Users\Biscuit\Documents\GitHub\Liquid\Liquid Launchpad\obj\x64\Release\Liquid Launchpad.csproj.AssemblyReference.cache
+C:\Users\Biscuit\Documents\GitHub\Liquid\Liquid Launchpad\obj\x64\Release\LiquidLaunchpad.Form1.resources
+C:\Users\Biscuit\Documents\GitHub\Liquid\Liquid Launchpad\obj\x64\Release\LiquidLaunchpad.FormLaunchpad.resources
+C:\Users\Biscuit\Documents\GitHub\Liquid\Liquid Launchpad\obj\x64\Release\Liquid Launchpad.csproj.GenerateResource.cache
+C:\Users\Biscuit\Documents\GitHub\Liquid\Liquid Launchpad\obj\x64\Release\Liquid Launchpad.csproj.CoreCompileInputs.cache
+C:\Users\Biscuit\Documents\GitHub\Liquid\Liquid Launchpad\obj\x64\Release\Liquid Launchpad.exe
+C:\Users\Biscuit\Documents\GitHub\Liquid\Liquid Launchpad\obj\x64\Release\Liquid Launchpad.pdb

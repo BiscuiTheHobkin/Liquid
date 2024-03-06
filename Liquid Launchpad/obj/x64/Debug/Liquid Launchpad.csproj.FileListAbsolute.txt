@@ -7,3 +7,12 @@ C:\Users\Biscuit\Documents\Visual Studio 2022\wa\Liquid Launchpad\obj\x64\Debug\
 C:\Users\Biscuit\Documents\Visual Studio 2022\wa\Liquid Launchpad\obj\x64\Debug\LiquidLaunchpad.Form1.resources
 C:\Users\Biscuit\Documents\Visual Studio 2022\wa\Liquid Launchpad\obj\x64\Debug\Liquid Launchpad.csproj.GenerateResource.cache
 C:\Users\Biscuit\Documents\Visual Studio 2022\wa\Liquid Launchpad\obj\x64\Debug\LiquidLaunchpad.FormLaunchpad.resources
+C:\Users\Biscuit\Documents\GitHub\Liquid\Liquid Launchpad\bin\Debug\Liquid Launchpad.exe
+C:\Users\Biscuit\Documents\GitHub\Liquid\Liquid Launchpad\bin\Debug\Liquid Launchpad.pdb
+C:\Users\Biscuit\Documents\GitHub\Liquid\Liquid Launchpad\obj\x64\Debug\Liquid Launchpad.csproj.AssemblyReference.cache
+C:\Users\Biscuit\Documents\GitHub\Liquid\Liquid Launchpad\obj\x64\Debug\LiquidLaunchpad.Form1.resources
+C:\Users\Biscuit\Documents\GitHub\Liquid\Liquid Launchpad\obj\x64\Debug\LiquidLaunchpad.FormLaunchpad.resources
+C:\Users\Biscuit\Documents\GitHub\Liquid\Liquid Launchpad\obj\x64\Debug\Liquid Launchpad.csproj.GenerateResource.cache
+C:\Users\Biscuit\Documents\GitHub\Liquid\Liquid Launchpad\obj\x64\Debug\Liquid Launchpad.csproj.CoreCompileInputs.cache
+C:\Users\Biscuit\Documents\GitHub\Liquid\Liquid Launchpad\obj\x64\Debug\Liquid Launchpad.exe
+C:\Users\Biscuit\Documents\GitHub\Liquid\Liquid Launchpad\obj\x64\Debug\Liquid Launchpad.pdb

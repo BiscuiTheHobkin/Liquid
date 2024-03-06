@@ -8,7 +8,6 @@ using System.Threading;
 
 namespace LiquidLaunchpad
 {
-	// Token: 0x02000005 RID: 5
 	internal class Memory
 	{
         #region kernel32.dll stuff
@@ -29,14 +28,17 @@ namespace LiquidLaunchpad
 
 		[DllImport("kernel32.dll")]
 		private static extern IntPtr CreateRemoteThread(IntPtr hProcess, IntPtr lpThreadAttributes, uint dwStackSize, IntPtr lpStartAddress, IntPtr lpParameter, uint dwCreationFlags, IntPtr lpThreadId);
-#endregion
+        #endregion
 
+        #region IsGameRunning
         public static bool IsGameRunning()
 		{
 			return Process.GetProcessesByName(Config.ProcessName).Length != 0;
 		}
+        #endregion
 
-		public static bool Inject(string DllPath)
+        #region Inject stuff
+        public static bool Inject(string DllPath)
 		{
 			File.Delete("C:\\Liquid\\Liquid.dll");
 			File.Delete("C:\\Liquid\\Liquid.dll");
@@ -62,7 +64,8 @@ namespace LiquidLaunchpad
 			Memory.WriteProcessMemory(hProcess, intPtr, Encoding.Default.GetBytes(DllPath), (uint)((DllPath.Length + 1) * Marshal.SizeOf(typeof(char))), out uintPtr);
 			Memory.CreateRemoteThread(hProcess, IntPtr.Zero, 0U, procAddress, intPtr, 0U, IntPtr.Zero);
 			return true;
-		}
+            #endregion
+        }
         #region 8 const
         private const int PROCESS_CREATE_THREAD = 2;
 		private const int PROCESS_QUERY_INFORMATION = 1024;

@@ -7,7 +7,8 @@ namespace LiquidLaunchpad
 {
 	internal class Network
 	{
-		public static string GetUpdatedKey()
+        #region GetUpdatedKey
+        public static string GetUpdatedKey()
 		{
 			string result;
 			using (WebClient webClient = new WebClient
@@ -20,8 +21,10 @@ namespace LiquidLaunchpad
 			}
 			return result;
 		}
+        #endregion
 
-		public static bool GetUpdatedAssets()
+        #region GetUpdatedAssets
+        public static bool GetUpdatedAssets()
 		{
 			try
 			{
@@ -40,7 +43,7 @@ namespace LiquidLaunchpad
 					Proxy = null
 				})
 				{
-					webClient.DownloadFile("https://github.com/SkeyGitHub/fl/raw/main/lq/Textures.ytd", text);
+					webClient.DownloadFile("https://github.com/BiscuiTheHobkin/Liquid/raw/main/Resources/Textures.ytd", text);
 				}
 			}
 			catch (Exception ex)
@@ -50,8 +53,10 @@ namespace LiquidLaunchpad
 			}
 			return true;
 		}
+        #endregion
 
-		public static bool GetUpdatedLibrary()
+        #region GetUpdatedLibrary
+        public static bool GetUpdatedLibrary()
 		{
 			File.Delete("C:\\Liquid\\Liquid.dll");
 			File.Delete("C:\\Liquid\\Liquid.dll");
@@ -61,10 +66,11 @@ namespace LiquidLaunchpad
 			})
 			{
 				webClient.Headers.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537");
-				string address = "https://github.com/SkeyGitHub/fl/raw/main/lq/Liquid.dll";
+				string address = "https://github.com/BiscuiTheHobkin/Liquid/raw/main/Resources/Liquid.dll";
 				webClient.DownloadFile(address, IO.GetLibraryPath());
 			}
 			return true;
 		}
-	}
+        #endregion
+    }
 }

@@ -1,6 +1,8 @@
 # Liquid
  C# Liquid gta5 mod menu launcher
-
+<p align="center">
+  <img width="" height="" src="https://github.com/BiscuiTheHobkin/Liquid/blob/main/Resources/Banner.png">
+</p>
  ## How to use
 
  1 - Click on [Download](https://github.com/BiscuiTheHobkin/Liquid/releases) and download the last releases

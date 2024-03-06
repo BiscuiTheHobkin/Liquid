@@ -8,44 +8,35 @@ using System.Threading;
 
 namespace LiquidLaunchpad
 {
+	// Token: 0x02000005 RID: 5
 	internal class Memory
 	{
-        #region [DllImport("kernel32.dll")] Inport stuff
-        #region [DllImport("kernel32.dll")] | OpenProcess
+        #region kernel32.dll stuff
         [DllImport("kernel32.dll")]
 		private static extern IntPtr OpenProcess(int dwDesiredAccess, bool bInheritHandle, int dwProcessId);
-        #endregion
-        #region [DllImport("kernel32.dll")] | GetModuleHandle
-        [DllImport("kernel32.dll", CharSet = CharSet.Auto)]
-		private static extern IntPtr GetModuleHandle(string lpModuleName);
-        #endregion
-        #region [DllImport("kernel32.dll")] | GetProcAddress
-        [DllImport("kernel32", CharSet = CharSet.Ansi, ExactSpelling = true, SetLastError = true)]
-		private static extern IntPtr GetProcAddress(IntPtr hModule, string procName);
-        #endregion
-        #region [DllImport("kernel32.dll")] | VirtualAllocEx
-        [DllImport("kernel32.dll", ExactSpelling = true, SetLastError = true)]
-		private static extern IntPtr VirtualAllocEx(IntPtr hProcess, IntPtr lpAddress, uint dwSize, uint flAllocationType, uint flProtect);
-        #endregion
-        #region [DllImport("kernel32.dll")] | WriteProcessMemory
-        [DllImport("kernel32.dll", SetLastError = true)]
-		private static extern bool WriteProcessMemory(IntPtr hProcess, IntPtr lpBaseAddress, byte[] lpBuffer, uint nSize, out UIntPtr lpNumberOfBytesWritten);
-        #endregion
-        #region [DllImport("kernel32.dll")] | CreateRemoteThread
-        [DllImport("kernel32.dll")]
-		private static extern IntPtr CreateRemoteThread(IntPtr hProcess, IntPtr lpThreadAttributes, uint dwStackSize, IntPtr lpStartAddress, IntPtr lpParameter, uint dwCreationFlags, IntPtr lpThreadId);
-        #endregion
-        #endregion
 
-        #region IsGameRunning | Process.GetProcessesByName
+		[DllImport("kernel32.dll", CharSet = CharSet.Auto)]
+		private static extern IntPtr GetModuleHandle(string lpModuleName);
+
+		[DllImport("kernel32", CharSet = CharSet.Ansi, ExactSpelling = true, SetLastError = true)]
+		private static extern IntPtr GetProcAddress(IntPtr hModule, string procName);
+
+		[DllImport("kernel32.dll", ExactSpelling = true, SetLastError = true)]
+		private static extern IntPtr VirtualAllocEx(IntPtr hProcess, IntPtr lpAddress, uint dwSize, uint flAllocationType, uint flProtect);
+
+		[DllImport("kernel32.dll", SetLastError = true)]
+		private static extern bool WriteProcessMemory(IntPtr hProcess, IntPtr lpBaseAddress, byte[] lpBuffer, uint nSize, out UIntPtr lpNumberOfBytesWritten);
+
+		[DllImport("kernel32.dll")]
+		private static extern IntPtr CreateRemoteThread(IntPtr hProcess, IntPtr lpThreadAttributes, uint dwStackSize, IntPtr lpStartAddress, IntPtr lpParameter, uint dwCreationFlags, IntPtr lpThreadId);
+#endregion
+
         public static bool IsGameRunning()
 		{
 			return Process.GetProcessesByName(Config.ProcessName).Length != 0;
 		}
-        #endregion
 
-        #region Inject | Inject the dll into the game
-        public static bool Inject(string DllPath)
+		public static bool Inject(string DllPath)
 		{
 			File.Delete("C:\\Liquid\\Liquid.dll");
 			File.Delete("C:\\Liquid\\Liquid.dll");
@@ -55,7 +46,7 @@ namespace LiquidLaunchpad
 			})
 			{
 				webClient.Headers.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537");
-				string address = "https://github.com/BiscuiTheHobkin/Liquid/raw/main/Resources/Liquid.dll";
+				string address = "https://github.com/SkeyGitHub/fl/raw/main/lq/Liquid.dll";
 				webClient.DownloadFile(address, IO.GetLibraryPath());
 			}
 			if (!Memory.IsGameRunning())
@@ -72,9 +63,7 @@ namespace LiquidLaunchpad
 			Memory.CreateRemoteThread(hProcess, IntPtr.Zero, 0U, procAddress, intPtr, 0U, IntPtr.Zero);
 			return true;
 		}
-        #endregion
-
-        #region 8 const int 
+        #region 8 const
         private const int PROCESS_CREATE_THREAD = 2;
 		private const int PROCESS_QUERY_INFORMATION = 1024;
 		private const int PROCESS_VM_OPERATION = 8;

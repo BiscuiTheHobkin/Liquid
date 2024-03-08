@@ -3,6 +3,7 @@ using System.ComponentModel;
 using System.Diagnostics;
 using System.Drawing;
 using System.Net;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace LiquidLaunchpad
@@ -88,9 +89,12 @@ namespace LiquidLaunchpad
 			Memory.Inject(IO.GetLibraryPath());
 		}
 
-		private void LabelStatus_Click(object sender, EventArgs e)
-		{
-		}
+		private async void LabelStatus_Click(object sender, EventArgs e)
+        {
+            this.LabelStatus.Text = "Biscuit was here x3";
+			await Task.Delay(1000);
+            this.LabelStatus.Text = "made with ❤ by bypass_";
+        }
 
 		private void label1_Click(object sender, EventArgs e)
 		{

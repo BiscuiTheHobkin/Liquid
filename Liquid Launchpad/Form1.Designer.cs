@@ -62,7 +62,7 @@
             this.Name = "Form1";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Key Needed";
+            this.Text = "Key Needed ??? x3";
             this.Load += new System.EventHandler(this.FormKeyInput_Load);
             ((System.ComponentModel.ISupportInitialize)(this.IconLogo)).EndInit();
             this.ResumeLayout(false);
@@ -70,13 +70,10 @@
 
 		}
 
-		// Token: 0x04000002 RID: 2
 		private global::System.ComponentModel.IContainer components;
 
-		// Token: 0x04000005 RID: 5
 		private global::System.Windows.Forms.Label label2;
 
-		// Token: 0x04000006 RID: 6
 		private global::System.Windows.Forms.PictureBox IconLogo;
         private System.Windows.Forms.Button button1;
     }
